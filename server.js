@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 app.get('/article-one', function(req,res){
-    res.send('Article one requested and will be send here');
+    res.send('This is the article one page LOL');
 });
 
 app.get('/article-two', function(req,res){
